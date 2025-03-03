@@ -1,0 +1,35 @@
+.product-image {
+    max-height: 400px;
+    object-fit: cover;
+}
+.thumbnail {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+.thumbnail:hover, .thumbnail.active {
+    opacity: 1;
+}
+.container {
+    max-width: 94%;
+    margin: auto;
+}
+.p-image {
+    max-width: 49%;
+    float: left;
+    display: inline-block;
+    background-color: white;
+}
+.p-detail {
+    max-width: 45%;
+    float: left;
+    display: inline-block;
+    margin-left: 45px;
+}
+.detail-text {
+    padding: 6px 0px;
+    font-size: 1.6rem;
+}
